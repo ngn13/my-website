@@ -6,11 +6,9 @@
 	<nav>
 		<h3>[ngn]</h3>
 		<div>
-			<NavbarLink link="/a">Home</NavbarLink>
-			<NavbarLink link="/a">Projects</NavbarLink>
-			<NavbarLink link="/a">About</NavbarLink>
-			<NavbarLink link="/a">Contact</NavbarLink>
-			<NavbarLink link="/a">Donate</NavbarLink>
+			<NavbarLink link="/">Home</NavbarLink>
+			<NavbarLink link="/#/projects">Projects</NavbarLink>
+			<NavbarLink link="/#/donate">Donate</NavbarLink>
 		</div>
 	</nav>
 </main>
@@ -19,7 +17,7 @@
 	@import '../styles/vars.scss';
 
 	nav{
-		border-radius: 30px;
+		border-radius: $border-rad;
 		background: $dark-two;
 		padding: 3px 40px;
 		display: flex;
