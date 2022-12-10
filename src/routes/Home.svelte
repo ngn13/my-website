@@ -20,6 +20,7 @@
 	@import '../styles/vars.scss';
 
 	.main {
+		overflow: hidden;
 		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 		display: flex;
 		flex-direction: column;
@@ -32,7 +33,6 @@
   		bottom: 40px;
   		left: 30px;
 		padding: 100px;
-		background-size: 1000px;
 		align-items: center;
 		justify-content: center;
 		color: white;
@@ -56,12 +56,5 @@
 	.links{
 		display: flex;
 		gap: 20px;
-	}
-
-	glitch{
-		animation-name: colorAnimation;
-		animation-iteration-count: infinite;
-		animation-duration: 10s;
-		text-shadow: none;
 	}
 </style>
