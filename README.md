@@ -1,5 +1,5 @@
 # My Website
-This repo contains source code of my website, hosted at [ngn13.fun](ngn13.fun)
+This repo contains source code of my website, hosted at [ngn13.fun](http://ngn13.fun)
 
 ## Setup
 ```
