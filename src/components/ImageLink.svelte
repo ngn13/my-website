@@ -1,9 +1,14 @@
 <script>
 	export let content
+	export let link
+
+	function redirect(){
+		window.open(link)
+	}
 </script>
 
 <main>
-	<div>
+	<div on:click={()=>redirect()}>
 		<h1><slot></slot></h1>
 		<h2>{content}</h2>	
 	</div>

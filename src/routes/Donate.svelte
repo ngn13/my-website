@@ -13,10 +13,10 @@
 		</div>
 		<div class="methods">
 			<div>
-				<ImageLink content="Buy me a coffee"><i class='bx bx-coffee-togo' ></i></ImageLink>
+				<ImageLink link="https://www.buymeacoffee.com/ngn13" content="Buy me a coffee"><i class='bx bx-coffee-togo' ></i></ImageLink>
 			</div>
 			<div>
-				<ImageLink content="Ethereum wallet"><i class='bx bxs-wallet-alt'></i></ImageLink>
+				<ImageLink link="https://etherscan.io/address/0x7a5D553C35Cec92D84e1992b29e40d9087AD8f0f" content="Ethereum wallet"><i class='bx bxs-wallet-alt'></i></ImageLink>
 			</div>
 		</div>
 		
@@ -56,7 +56,6 @@
 
 	.infotext{
 		color: white;
-		gap: 20px;
 		padding: 0;
 		margin: 0;
 
