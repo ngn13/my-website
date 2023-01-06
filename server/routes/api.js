@@ -66,10 +66,6 @@ class RouteAPI extends express.Router{
 
          let projects = db.getDBFile("projects")
 
-         if (projects==={}){
-            projects["projects"] = []
-         }
-
          let project = {
             name: req.body.name,
             desc: req.body.desc,
@@ -78,7 +74,14 @@ class RouteAPI extends express.Router{
             background: req.body.background
          }
 
-         projects["projects"].push(project)
+         try{
+            projects["projects"].push(project)
+         }catch{
+            projects = {
+               "projects":[project]
+            }
+         }
+         
          db.setDBFile("projects", projects)
          
     	})

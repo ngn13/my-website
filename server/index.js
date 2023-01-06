@@ -25,6 +25,6 @@ app.all("*", (req,res)=>{
 	res.send("<script>location.href='/'</script>")
 })
 
-app.listen(80, ()=>{
-	console.log("Server is up on port 80")
+app.listen(9000, ()=>{
+	console.log("Server is up on port 9000")
 })
